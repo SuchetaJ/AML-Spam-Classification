@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Sucheta%20Jhunjhunwala/AML-Spam-Classification-1/mlruns/0/7856737102964734a888de31aec726d5/artifacts
+end_time: 1676815061916
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7856737102964734a888de31aec726d5
+run_name: colorful-grub-160
+run_uuid: 7856737102964734a888de31aec726d5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676815059202
+status: 3
+tags: []
+user_id: Sucheta Jhunjhunwala

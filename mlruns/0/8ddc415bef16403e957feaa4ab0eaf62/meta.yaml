@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Sucheta%20Jhunjhunwala/AML-Spam-Classification-1/mlruns/0/8ddc415bef16403e957feaa4ab0eaf62/artifacts
+end_time: 1676815197697
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ddc415bef16403e957feaa4ab0eaf62
+run_name: aged-shoat-274
+run_uuid: 8ddc415bef16403e957feaa4ab0eaf62
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1676815189774
+status: 4
+tags: []
+user_id: Sucheta Jhunjhunwala
