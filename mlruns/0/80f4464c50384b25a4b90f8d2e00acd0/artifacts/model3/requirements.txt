@@ -1,0 +1,10 @@
+mlflow<3,>=2.1
+bcrypt==4.0.1
+boto3==1.26.74
+cloudpickle==2.2.1
+fsspec==2023.1.0
+google-cloud-storage==2.7.0
+pydot==1.4.2
+pyopenssl==23.0.0
+scikit-learn==1.2.1
+tensorflow-intel==2.11.0

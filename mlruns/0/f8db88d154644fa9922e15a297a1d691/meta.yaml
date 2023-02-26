@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Sucheta%20Jhunjhunwala/AML-Spam-Classification-1/mlruns/0/f8db88d154644fa9922e15a297a1d691/artifacts
+end_time: 1677155023237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f8db88d154644fa9922e15a297a1d691
+run_name: secretive-skunk-573
+run_uuid: f8db88d154644fa9922e15a297a1d691
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1677155019771
+status: 3
+tags: []
+user_id: Sucheta Jhunjhunwala
