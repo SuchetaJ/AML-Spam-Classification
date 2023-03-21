@@ -7,6 +7,8 @@ import sklearn
 import requests
 import app
 from app import *
+import os
+from score import *
 
 train_df = pd.read_csv("train.csv")
 val_df = pd.read_csv("validation.csv")
@@ -80,3 +82,22 @@ def test_flask():
     assert response.status_code == 200
     assert response.text == 'SVM Prediction'
     proc.terminate()
+
+def test_docker():
+    # Build and run the Docker container
+    os.system('docker build -t sms_spam .')
+    os.system('docker run -d -p 5000:5000 sms_spam')
+
+    # Send a request to the /score endpoint
+    url = 'http://127.0.0.1:5000/score'
+    data = {'text': X_test[10]}
+    response = requests.post(url,json=data)
+
+    # Check if the response is as expected
+    expected_response = score(X_test[10],loaded_model,0.5)
+    assert response.status_code == 404
+    assert True == expected_response[0]
+
+    # Close the Docker container
+    container_id = os.popen('docker ps -l -q').read().strip()
+    os.system(f'docker stop {container_id}')
