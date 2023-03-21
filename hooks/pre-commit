@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [[ $(git rev-parse --abbrev-ref HEAD) == "main" ]]; then
+    python test.py
+fi
